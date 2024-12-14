@@ -1,0 +1,44 @@
+Epoch 1/20
+Epoch 1:   0%|          | 0/204 [00:00<?, ?batch/s]/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+Epoch 1: 100%|██████████| 204/204 [05:40<00:00,  1.67s/batch, accuracy=34, loss=2.05]
+Epoch 2/20
+Epoch 2: 100%|██████████| 204/204 [05:36<00:00,  1.65s/batch, accuracy=26.6, loss=1.39]
+Epoch 3/20
+Epoch 3: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=38.9, loss=1.39]
+Epoch 4/20
+Epoch 4: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=44.3, loss=1.71]
+Epoch 5/20
+Epoch 5: 100%|██████████| 204/204 [05:36<00:00,  1.65s/batch, accuracy=45.8, loss=1.65]
+Epoch 6/20
+Epoch 6: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=45.6, loss=0.914]
+Epoch 7/20
+Epoch 7: 100%|██████████| 204/204 [05:35<00:00,  1.64s/batch, accuracy=45.1, loss=1.73]
+Epoch 8/20
+Epoch 8: 100%|██████████| 204/204 [05:35<00:00,  1.64s/batch, accuracy=47.7, loss=1.16]
+Epoch 9/20
+Epoch 9: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=48.3, loss=1.68]
+Epoch 10/20
+Epoch 10: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=47.2, loss=1.27]
+Epoch 11/20
+Epoch 11: 100%|██████████| 204/204 [05:35<00:00,  1.64s/batch, accuracy=46.9, loss=1.75]
+Epoch 12/20
+Epoch 12: 100%|██████████| 204/204 [05:36<00:00,  1.65s/batch, accuracy=47.8, loss=1.87]
+Epoch 13/20
+Epoch 13: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=51.1, loss=1.39]
+Epoch 14/20
+Epoch 14: 100%|██████████| 204/204 [05:36<00:00,  1.65s/batch, accuracy=50.8, loss=1.61]
+Epoch 15/20
+Epoch 15: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=50.1, loss=1.46]
+Epoch 16/20
+Epoch 16: 100%|██████████| 204/204 [05:35<00:00,  1.64s/batch, accuracy=52.9, loss=2.14]
+Epoch 17/20
+Epoch 17: 100%|██████████| 204/204 [05:35<00:00,  1.64s/batch, accuracy=51.8, loss=1.39]
+Epoch 18/20
+Epoch 18: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=54.8, loss=1.94]
+Epoch 19/20
+Epoch 19: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=55, loss=1.26]
+Epoch 20/20
+Epoch 20: 100%|██████████| 204/204 [05:35<00:00,  1.65s/batch, accuracy=53.2, loss=1.5]
+/tmp/ipykernel_23/483945860.py:42: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(path))
